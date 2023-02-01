@@ -66,7 +66,18 @@ img {
     width: 100%;
 }
 
+h1 {
+    font-size: 2.5rem;
+}
 
+h2 {
+    margin-bottom: 40px;
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
 
 h3, h4, h5, h6 {
     font-family: "Lekton", sans-serif;
@@ -148,7 +159,6 @@ nav ul li a {
 .project-title {    
     color: rgba(141,181,128,1);	;
     font-weight: bold;
-    font-size: 1.5em;
     margin: 20px 0 40px 0;
 }
 
@@ -178,7 +188,78 @@ span {
 /* Skills Section */
 #skills {
     background-color: #b4c7d9;
-    padding-top: 50px;
+    padding-top: 20px;
+}
+
+#skills h3 {
+    margin: 40px 0;
+}
+
+.skill,
+.tool {
+    background-color: #152a3e;
+    text-align: center;
+    padding: 10px 0;
+    margin: 25px 0;
+}
+
+#skills p {
+    color: #f8d697;
+}
+
+/* About Section */
+#about {
+    padding: 20px 0;
+}
+
+#about figure {
+    width: 85%;
+}
+
+#about img {
+    max-width: 75%;
+    border: #f7e8e8 solid 5px;
+}
+
+#about h3,
+#about h4 {
+    font-family: "Lexend", sans-serif;
+    color: rgba(141,181,128,1);
+    margin: 25px 0;
+}
+
+#about p {
+    font-family: "Lekton", sans-serif;
+    padding-bottom: 10px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #eeefda;
+    padding-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icons li {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons i {
+    font-size: 2.5rem;
+    color: rgba(141,181,128,1)
+}
+
+footer p {
+    margin: 40px 0 10px 0;
+    text-align: center;
 }
 
 /******************************************
