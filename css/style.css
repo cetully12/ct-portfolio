@@ -217,6 +217,7 @@ span {
 
 #about img {
     border: #f7e8e8 solid 5px;
+    max-width: 350px;
 }
 
 #about h3,
@@ -238,7 +239,7 @@ span {
 
 .social-icons {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .social-icons li {
@@ -247,6 +248,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 10px;
 }
 
 .social-icons i {
@@ -269,10 +271,6 @@ footer p {
         justify-content: space-around;
     }
 
-    .content-wrapper {
-        max-width: 770px;
-    }
-
     .portfolio-wrapper {
         justify-content: space-around;
     }
@@ -291,6 +289,26 @@ footer p {
 
     .skills-and-tools {
         width: 40%;
+    }
+
+    .about-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #about img {
+        max-width: 350px;
+    }
+
+    .about-img,
+    .about-text {
+        width: 50%;
+        text-align: left;
+    }
+
+    #about h3 {
+        text-align: center;
     }
     
 }
