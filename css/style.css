@@ -37,7 +37,7 @@ header,
 #about,
 #contact,
 footer {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,11 +144,6 @@ nav ul li a {
     width: 90%;
     filter: drop-shadow(1px 2px 6px grey);
 }
-
-/* #work img {
-    width: 80%;
-    vertical-align: middle;
-} */
 
 .portfolio-piece {
     width: 100%;
@@ -266,6 +261,24 @@ footer p {
 /*******************************************/
 
 @media (min-width: 768px) {
+    .content-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+    }
+
     .home-title {
         flex-direction: row;
         justify-content: space-around;
@@ -280,11 +293,16 @@ footer p {
         align-items: center;
     }
 
+    #skills .content-wrapper {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
     .skills-wrapper {
         display: flex;
         justify-content: space-around;
         align-items: flex-start;
-        flex-flow: row wrap;
+        flex-flow: row;
     }
 
     .skills-and-tools {
@@ -310,5 +328,9 @@ footer p {
     #about h3 {
         text-align: center;
     }
+    
+}
+
+@media (min-width: 1200px) {
     
 }
