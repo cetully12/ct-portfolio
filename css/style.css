@@ -28,7 +28,6 @@ body {
 }
 header {
     background: rgba(141,181,128,1);	
-    padding: 20px 0;
 }
 
 header,
@@ -43,7 +42,7 @@ footer {
     align-items: center;
     flex-flow: row wrap;
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 .content-wrapper {
@@ -58,7 +57,7 @@ ul {
 }
 
 a {
-    color: white;
+    color: #152a3e;
     text-decoration: none;
     font-size: 1.1rem;
 }
@@ -66,19 +65,24 @@ a {
 img {
     border-style: none;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
+    line-height: 1.5;
 }
 
 h2 {
-    /* margin-bottom: 40px; */
     font-size: 1.75rem;
 }
 
 h3 {
     font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
 }
 
 h3, h4, h5, h6 {
@@ -108,13 +112,19 @@ nav ul {
 }
 
 header nav ul li {
-    font-size: 1em;
+    font-size: 1rem;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
 
 nav ul li a {
     text-decoration: none;
+}
+
+#contact-me {
+    background-color: #eeefda;
+    padding: 10px 15px;
+    border-radius: 30px;
 }
 
 .home-title {
@@ -205,10 +215,6 @@ span {
 }
 
 /* About Section */
-
-/* #about figure {
-    width: 85%;
-} */
 
 #about img {
     border: #f7e8e8 solid 5px;
@@ -311,26 +317,49 @@ footer p {
 
     .about-wrapper {
         width: 100%;
+    }
+
+    .about-info {
         display: flex;
-        justify-content: space-around;
+        flex-flow: column;
     }
 
     #about img {
         max-width: 350px;
     }
 
-    .about-img,
     .about-text {
-        width: 50%;
+        /* width: 90%; */
         text-align: left;
     }
 
     #about h3 {
         text-align: center;
     }
+
+    #contact .content-wrapper {
+        flex-flow: column;
+    }
     
 }
 
 @media (min-width: 1200px) {
-    
+
+    .content-wrapper {
+        max-width: 1250px;
+    }
+
+    header .content-wrapper {
+        justify-content: flex-end;
+    }
+
+    header nav {
+        width: 45%;
+        justify-content: flex-end;
+    }
+
+    header nav ul {
+        justify-content: space-between;
+        width: 80%;
+    }
 }
