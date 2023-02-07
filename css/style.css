@@ -362,4 +362,26 @@ footer p {
         justify-content: space-between;
         width: 80%;
     }
+
+    .about-info {
+        justify-content: space-between;
+        flex-flow: nowrap;
+    }
+
+    #about figure {
+        width: 45%;
+    }
+
+    #about img {
+        max-width: 400px;
+    }
+
+    .about-text {
+        width: 55%;
+    }
+
+    #about h3 {
+        text-align: left;
+    }
+
 }
