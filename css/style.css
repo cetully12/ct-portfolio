@@ -39,7 +39,7 @@ ul {
 a {
     color: #152a3e;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: .85rem;
 }
 
 img {
@@ -67,7 +67,7 @@ h4 {
 }
 
 h3, h4, h5, h6 {
-    font-family: "Lekton", sans-serif;
+    font-family: "Fira Code", "Lekton", sans-serif;
 }
 
 p {
@@ -100,6 +100,7 @@ header nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    font-size: 1.1rem;
 }
 
 #contact-me {
@@ -168,6 +169,7 @@ span {
 
 .project-link {
     text-transform: uppercase;
+    font-size: 1.1rem;
     background-color: #ffa987;
     padding: 1rem 2rem;
     border-radius: 25px;
@@ -198,7 +200,7 @@ span {
 /* About Section */
 
 #about img {
-    border: #c5d9bf solid 5px;
+    border: #735d78 solid 5px;
     max-width: 350px;
 }
 
