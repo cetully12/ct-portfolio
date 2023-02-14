@@ -257,11 +257,11 @@ footer p {
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     h2 {
-        font-size: 2.25rem;
+        font-size: 2.75rem;
     }
 
     h3 {
@@ -290,6 +290,11 @@ footer p {
 
     img {
         max-width: 450px;
+    }
+
+    header h1,
+    header h2 {
+        text-align: left;
     }
 
     .home-title {
