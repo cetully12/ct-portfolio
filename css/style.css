@@ -154,6 +154,7 @@ nav ul li a:hover, #contact-me:hover {
     flex-direction: column;
     align-items: center;
     margin-bottom: 25px;
+    border-bottom: 3px solid #735d78;
 }
 
 .project-title {    
@@ -319,6 +320,11 @@ footer p {
     .portfolio-piece {
         width: 45%;
         align-items: center;
+        border: none;
+    }
+
+    .project-link:hover {
+        background-color: #ffc5ad;
     }
 
     #skills .content-wrapper {
@@ -330,7 +336,7 @@ footer p {
         display: flex;
         justify-content: space-around;
         align-items: flex-start;
-        flex-flow: row;
+        flex-flow: wrap;
     }
 
     .skills-and-tools {
@@ -361,6 +367,10 @@ footer p {
     #contact .content-wrapper {
         flex-flow: column;
     }
+
+    .social-icons i:hover {
+        color: #4d3e51;
+    }
     
 }
 
@@ -386,7 +396,8 @@ footer p {
 
     .about-info {
         justify-content: space-between;
-        flex-flow: nowrap;
+        align-items: center;
+        flex-flow: row;
     }
 
     #about figure {
