@@ -157,6 +157,11 @@ nav ul li a:hover, #contact-me:hover {
     border-bottom: 3px solid #735d78;
 }
 
+.last {
+    border-bottom: none;
+    margin: 0;
+}
+
 .project-title {    
     color: #735d78;
     font-weight: bold;
