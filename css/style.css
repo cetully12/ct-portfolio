@@ -322,6 +322,10 @@ footer p {
         width: 90%;
     }
 
+    nav ul li a {
+        font-size: 1.3rem;
+    }
+
     img {
         max-width: 450px;
     }
@@ -408,8 +412,8 @@ footer p {
     }
 
     header nav {
-        width: 45%;
-        justify-content: flex-end;
+        width: 50%;
+        justify-content: space-evenly;
     }
 
     header nav ul {
