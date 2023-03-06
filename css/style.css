@@ -13,7 +13,7 @@ header {
 }
 
 header,
-#work,
+#projects,
 #skills,
 #about,
 #contact,
@@ -56,6 +56,7 @@ h1 {
 
 h2 {
     font-size: 1.75rem;
+    padding-top: 25px;
 }
 
 h3 {
@@ -84,12 +85,23 @@ p {
 
 /* Header */
 nav {
-   margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+    background-color: #c5d9bf;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
 }
 
 nav ul {
     display: flex;
     justify-content: space-between;
+    p
 }
 
 header nav ul li {
@@ -101,7 +113,7 @@ header nav ul li {
 nav ul li a {
     text-decoration: none;
     font-size: 1rem;
-    padding: 10px 5px;
+    padding: 10px;
 }
 
 nav #contact-me {
@@ -121,6 +133,7 @@ nav ul li a:hover, #contact-me:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .profile-image,
@@ -138,12 +151,12 @@ nav ul li a:hover, #contact-me:hover {
     padding: 5px;
 }
 
-#work figure {
+#projects figure {
     width: 90%;
     filter: drop-shadow(1px 2px 6px #735d78);
 }
 
-#work figure:hover {
+#projects figure:hover {
     filter: drop-shadow(4px 8px 24px #735d78);
 }
 
@@ -173,7 +186,7 @@ nav ul li a:hover, #contact-me:hover {
     margin: 0 0 30px 0;
 }
 
-#work p {
+#projects p {
     width: 100%;
     text-align: left;
 }
@@ -235,6 +248,10 @@ span {
 /* Contact Section */
 #contact {
     background-color: #c5d9bf;
+}
+
+#contact h2 {
+    padding-top: 0;
 }
 
 .social-icons {
