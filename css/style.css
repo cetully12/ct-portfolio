@@ -90,6 +90,8 @@ p {
 nav {
     background-color: #003249;
     width: 100%;
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -295,6 +297,15 @@ footer p {
 /* ADDITIONAL STYLES
 /*******************************************/
 @media (max-width:768px) {
+    nav {
+        position: fixed;
+    }
+
+    .brand-name,
+    .open-menu {
+        padding: 0 25px;
+    }
+
     nav .main-menu {
         background-color: #003249;
         height: 100vh;
@@ -331,6 +342,10 @@ footer p {
         display: inline-block;
         padding: 12px;
       }
+
+      .home-title {
+        margin-top: 150px;
+    }
 }
 
 
